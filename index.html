@@ -1,0 +1,201 @@
+  
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bank of Spark</title>
+	 <meta charset="utf-8">
+	   <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400&display=swap" rel="stylesheet">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+ <link rel="stylesheet" type="text/css" href="stylesheet.css">
+ <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet"> 
+
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<style>
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	overflow: hidden;
+	font-family: 'Josefin Sans', sans-serif;
+}
+header{
+	width: 100%;
+	height: 100vh;
+	background-image: url("bb.webp");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	}
+.mainHeader{
+	width: 100%;
+	height: 100px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.mainHeader nav{
+	width: 650px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding: 30px;
+	
+}
+.mainHeader nav a{
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: bold;
+	color:rgb(26 163 31);
+    border-radius: 6px;
+    border: 2px solid black;
+}
+.mainHeader nav a:hover{
+   color: rgb(33, 235, 33);
+   background-color: rgb(15, 15, 15);
+}
+.mainHeader .active{
+box-sizing: border;
+border: 4px solid rgb(28, 63, 221);
+padding: 15px;
+color: rgb(0, 0, 0);
+padding: 10px 45px;
+text-align: center;
+font-size: 14px;
+color: rgb(255, 255, 255);
+border: none;
+border-radius: 10px;
+}
+.mainHeader button{
+	padding: 10px 45px;
+	text-align: center;
+	font-size: 14px;
+	color: #fff;
+	border: none;
+	background-image: linear-gradient(to right, #649bff, #0070fa, #649bff);
+    border-radius: 10px;
+}
+.menubtn{
+	margin-right: 60px;
+}
+main{	width: 100%;
+	display: flex;
+	justify-content: space-between;
+align-items: center;
+}
+main .right-sec{
+padding-right: 70px;
+}
+main .left-sec{
+padding-left: 100px;
+}
+.left-sec h2{
+font-size: 40px;
+text-transform: capitalize;
+font-weight: lighter;
+color: rgb(122, 7, 7);
+font-weight: bold;
+margin-top: 170px;
+margin-bottom: 15px;
+}
+.left-sec h1{
+font-size: 55px;
+text-transform: capitalize;
+font-weight: 700;
+margin: 15px 0;
+font-family: 'Courier New', Courier, monospace;
+color: rgb(1, 26, 94);
+}
+.left-sec p{
+margin-bottom: 20px;
+}
+.left-sec button{
+	padding: 10px 45px;
+	text-align: center;
+	font-size: 14px;
+	color: #fff;
+	border: none;
+	background-image: linear-gradient(to right, #649bff, #0070fa, #649bff);
+    border-radius: 10px;
+}
+
+.right-sec img {
+    width: 600px;
+    height: 500px;
+	margin-right: 210px;
+	margin-top: 30px;
+	border-bottom: 5px solid transparent;
+	border-radius: 100px;
+	margin-left: 20px;
+	}
+.left-sec .animate__fadeInLeftBig{
+    animation-duration: 3s;
+	}
+.left-sec .animate__fadeInRightBig{
+    animation-duration: 3s;
+	}
+.right-sec .animate__fadeInRightBig{
+    animation-duration: 3s;
+	}
+.mainHeader h1{
+font-size: 35px;
+text-transform: capitalize;
+font-weight: 700;
+margin: 15px 0;
+color: #0070fa;
+font-family: 'FontAwesome';
+}
+.mainHeader img{
+	width: 90px;
+	height: 90px;
+	margin-left: 30px;
+	margin-top: 10px;
+	border-radius: 8px;
+}
+.footer p{
+	color: #000;
+}
+h2 span{
+	font-family: 'Courier New', Courier, monospace;
+	color:black;
+}
+</style>
+<body onload="loader()">
+<header class="Header">
+	<div class="mainHeader">
+		<img src="logo.png" alt="logo">
+		<h1 style="color: #000;"><i class="fa fa-bank" style="font-size:38px;color: rgb(0, 0, 0);"></i>BANK OF SPARK</h1>
+  		<nav >
+			<a href="index.html" class="active"></a>
+			<a href="bank1.html">View All Customers</a>
+			<a href="moneytranc.html">Money Transaction</a>
+		</nav>
+		<div class="menubtn">
+			<button>Help?</button>
+		</div>
+	</div>
+	<p style="color: #000;"><hr></p>
+	<main>
+		<section class="left-sec">
+			<h1 class="animate_animated animate__fadeInRightBig py-3" >@THE SPARK FOUNDATION </h1>
+			<section class="left-sec">
+		<section class="left-sec">
+			<h2 class="animate_animated animate__fadeInLeftBig">#Online Transaction Through  <span>Ravi Kant</span></h2>
+			<figure>
+				<img src="aa.png" width="400px" height="250px" class="animate_animated animate__fadeInRightBig py-3" alt="CARD">
+			</figure>
+	
+		</section>
+		<section class="right-sec">
+			
+			
+		</section>
+	</main>
+</header>
+</body>
+</html>
